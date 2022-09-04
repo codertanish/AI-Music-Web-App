@@ -1,0 +1,81 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+          
+                   
+         .btn-grad1 {
+            background-image: linear-gradient(to right, #B3FFAB 0%, #12FFF7  51%, #B3FFAB  100%);
+            margin: 10px;
+            padding: 15px 30px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          #song_playing {
+              font-size: 20px;
+              width: 25%;
+          }
+
+          body {
+              background-size: cover;
+              text-align: center;
+              font-family: Comic Sans MS;
+          }
+
+          .heading {
+              font-size: 30px;
+              width: 100%;
+              margin: 0px;
+          }
+
+          .note {
+              font-size: 20px;
+              color: black;
+          }
+
+          canvas {
+              border: 5px solid black;
+              border-radius: 20px;
+              margin-top: 55px;
+              animation-name: GlowingBorder;
+              animation-duration: 6s;
+              animation-iteration-count: infinite;
+          }
+
+          @keyframes GlowingBorder {
+            from {box-shadow: 5px 5px 10px lightcoral;}
+            20% {box-shadow: 5px 5px 10px lightpink;}
+            40% {box-shadow: 5px 5px 10px lightcyan;}
+            60% {box-shadow: 5px 5px 10px lightgreen;}
+            80% {box-shadow: 5px 5px 10px lightgoldenrodyellow;}
+            to {box-shadow: 5px 5px 10px lightcoral;}
+        }
+         
+         
