@@ -34,7 +34,7 @@ function draw() {
         song2.stop();
         
 
-        if(song1Status = "false") {
+        if(song1Status == false) {
             song1.play();
             document.getElementById("song_playing").innerHTML = "Harry Potter Theme Song Remix Is Playing";
             console.log("Song 1");
@@ -49,7 +49,7 @@ if(rightScore > 0.2 ) {
     circle(rightX, rightY, 20);
     song1.stop();
 
-    if(song2Status = "false") {
+    if(song2Status == false) {
         song2.play();
         document.getElementById("song_playing").innerHTML = "Peter Pan Song Is Playing";
     }
